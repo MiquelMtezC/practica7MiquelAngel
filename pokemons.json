@@ -1,0 +1,58 @@
+{
+    "Pokemons": [
+        {
+        "id": "lagartija", 
+        "nom": "Charmander",
+        "tipus": "fuego",
+        "pes": "8.5 Kg",
+        "altura": "0.6 metros",
+        "shiny": "False",
+        "estadístiques": {"atac": 4, "defensa": 3, "atac especial": 4, "defensa especial": 3, "velocitat": 4},
+        "movimientos": [
+            {
+                "nom": "brases",
+                "descripció": "L'enemic és atacat amb petites flames. Té probabilitat de cremar",
+                "potencia": 40,
+                "contacte": "True"
+            },
+            {
+                "nom": "Ullal Ígni",
+                "descripció": "L'usuari et mossega amb els seus ullals ígnis. Probabilitat de crema i retrocedir",
+                "potencia": 65,
+                "contacte": "True"
+            }
+        ],
+        "imatge": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fla-wiki-pokeland.fandom.com%2Fes%2Fwiki%2FCharmander_de_Laioned&psig=AOvVaw3VLb3wYnH9qw11Fkj77YVb&ust=1706182584420000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDcjsr39YMDFQAAAAAdAAAAABAD",
+        "evolucions": {
+            "evolucio_1": "Charmaleon",
+            "evolucio_2": "Charizard"
+            }
+        },
+        
+        {
+            "id": "Cielo", 
+            "nom": "Rayquaza",
+            "tipus": {"Tipus_1": "Drac", "Tipus_2": "Volador"},
+            "pes": "206,5 Kg",
+            "altura": "7.0 metros",
+            "shiny": "True",
+            "estadístiques": {"atac": 9, "defensa": 6, "atac especial": 9, "defensa especial": 6, "velocitat": 6},
+            "movimientos": [
+                {
+                    "nom": "Ascens drac",
+                    "descripció": "Causa molt dany, pero redueix la defensa i la defensa especial de l'usuari en un nivell",
+                    "potencia": 120,
+                    "contacte": "True"
+                },
+                {
+                    "nom": "Dansa drac",
+                    "descripció": "Et puja una vegada les estadístiques d'atac i velocitat",
+                    "potencia": 0,
+                    "contacte": "False"
+                }
+            ],
+            "imatge": "https://www.google.com/url?sa=i&url=https%3A%2F%2Ffantendo.fandom.com%2Fes%2Fwiki%2FRayquaza&psig=AOvVaw2h0v1XcIiPJ6QStYLWj1Ef&ust=1706183475936000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNiug_b69YMDFQAAAAAdAAAAABAE",
+            "evolucions": "False"
+        }
+    ]
+}
